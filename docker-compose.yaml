@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  my-web:
+    build: ./my-web
+    ports:
+     - "9090:80"
